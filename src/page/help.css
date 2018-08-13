@@ -1,0 +1,50 @@
+.help {
+  background: #F5F5F5;
+}
+
+.help .head {
+  background: #FFFFFF;
+  height: 60px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 15px;
+  font-size: 28px;
+  font-weight: bold;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.help .content {
+  background: #FFFFFF;
+  margin-top: 10px;
+  height: auto;
+}
+
+.help .content .detail {
+  color: #888888;
+  font-size: 12px;
+  text-align: left;
+  border-bottom: 1px #EEEEEE solid;
+  margin: 6px 0 0 0;
+  padding: 0 0 6px 25px;
+  list-style-type: disc;
+}
+
+.help .content .individual {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 48px;
+  margin: 0 8px 0 8px;
+  border-bottom: 1px solid #EEEEEE;
+}
+
+.help .content .individual p{
+  margin: 0 7px 0 7px;
+  font-size: 14px;
+}
+
+.help .content .individual .arrow-down {
+  margin-right: 7px;
+  height: 20px;
+}

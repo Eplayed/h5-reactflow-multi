@@ -1,0 +1,123 @@
+.after-sale {
+
+}
+
+.after-sale .head {
+  text-align: left;
+  margin: 20px 0 0 30px;
+  color: #999999;
+  font-size: 16px;
+}
+
+.after-sale .head .state {
+  color: #FF7494;
+  margin-left: 4px;
+}
+
+.after-sale .card {
+  margin: 20px 15px 0 15px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.07);
+  display: flex;
+  align-items: center;
+}
+
+.after-sale .card .slide {
+  position: relative;
+  margin: 23px 17px 23px 17px;
+}
+
+.after-sale .card .slide img {
+  width: 64px;
+  height: 64px;
+}
+.after-sale  .card .slide .total {
+  position: absolute;
+  width: 100%;
+  height: 18px;
+  background: rgba(50, 50, 50, 0.5);
+  bottom: 0;
+  color: #FFFFFF;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.after-sale .card .content {
+  margin: 15px 10px 15px 10px;
+  height: auto;
+  text-align: left;
+}
+
+.after-sale .card .content .name {
+  font-size: 14px;
+  color: #333333;
+}
+
+.after-sale .card .content .specifications {
+  font-size: 12px;
+  color: #999999;
+  margin: 3px 0 0 0;
+}
+
+.after-sale .card .content .unit {
+  font-size: 12px;
+  color: #999999;
+  margin: 3px 0 0 0;
+}
+
+.after-sale .card .content .unit span {
+  margin-right: 8px;
+}
+
+.after-sale .card .sale .title {
+  font-size: 14px;
+  color: #333333;
+  text-align: left;
+  margin: 15px 0 0 15px;
+}
+
+.after-sale .card .sale .info {
+  margin: 15px 15px 0 15px;
+  color: #999999;
+  text-align: left;
+  font-size: 14px;
+}
+
+.after-sale .card .sale .info .param {
+  color: #333333;
+}
+
+.after-sale .card .sale .info-last {
+  margin-bottom: 15px;
+}
+.imageSrc-wrap{
+  display: flex;
+  margin: 15px;
+  justify-content: space-between;
+}
+.imageSrc-wrap > div{
+  width: 90px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+}
+.imageSrc-wrap > div > img{
+  max-width: 100%;
+  max-height: 100%;
+}
+.imgZoomWrap{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: #333;
+  display: flex;
+  align-items: center;
+}
+.imgZoomWrap>img{
+  width: 100%;
+  max-height:475px;
+  min-height: 200px;
+}

@@ -1,0 +1,175 @@
+.preferential {
+
+}
+
+.preferential .nav {
+  height: 40px;
+  background: #FDBFCD;
+  margin: 0;
+  overflow: auto;
+  display: flex;
+}
+
+.preferential .nav .block {
+  /* display: flex;
+  justify-content: center;
+  flex-direction: column; */
+  
+  padding: 0;
+  border: 0;
+  height: 100%;
+  color: #FFFFFF;
+}
+
+.preferential .nav .block .select-time {
+  background: #FF7494;
+}
+
+.preferential .nav .block .tag{
+  width: 70px;
+  height: 100%;
+}
+
+.preferential .nav .block .tag div {
+  vertical-align: middle
+}
+
+.preferential .nav .block .tag .time {
+  padding: 4px 0;
+  font-size: 16px;
+  vertical-align: baseline;
+}
+
+.preferential .nav .block .tag .state {
+  font-size: 11px;
+  margin-top: -6px;
+}
+
+.preferential .count-down {
+  margin: 10px 15px 0 15px;
+  font-size: 12px;
+  color: #333333;
+  display: flex;
+  justify-content: space-between;
+}
+
+.preferential .count-down .end-text {
+  color: #999999;
+}
+
+.preferential .count-down .end-time {
+  color: #FF7494;
+  margin-left: 4px;
+}
+
+.preferential .card {
+  margin: 20px 15px 0 15px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.05);
+}
+
+.preferential .card .banner {
+  padding: 14px 0 14px 0;
+  background: #FAFAFA;
+  width: 100%;
+  height: 132px;
+}
+
+.preferential .card .banner .img {
+  height: 100%;
+}
+
+.preferential .card .detail {
+  padding: 10px;
+}
+
+.preferential .card .detail .description {
+  font-size: 14px;
+  text-align: left;
+}
+
+.preferential .detail .footer {
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.preferential .detail .footer .price {
+  color: #999999;
+}
+
+.preferential .detail .footer .price .sale {
+  margin-top: 9px;
+  color: #FF7494;
+  font-size: 16px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.preferential .detail .footer .price .origin-price {
+  font-size: 11px;
+  text-decoration: line-through;
+  text-align: left;
+  margin-top: 4px;
+}
+
+.preferential .detail .footer .percent {
+  color: #FF7494;
+  font-size: 11px;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-end;
+}
+
+.preferential .detail .footer .percent .action{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.preferential .detail .footer .percent .action .rush-to-buy{
+  margin-top: 5px;
+  background: linear-gradient(to right, #FC597F , #FC8EB0);
+  width: 80px;
+  height: 30px;
+  color: #FFFFFF;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  box-shadow: 0 2px 6px 0 rgba(253, 191, 205, 1);
+}
+
+.preferential .detail .footer .percent .action .buy-out{
+  margin-top: 5px;
+  background: #cccccc;
+  width: 80px;
+  height: 30px;
+  color: #FFFFFF;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  box-shadow: 0 2px 6px 0 rgba(234, 234, 234, 1);
+}
+
+.preferential .detail .footer .percent .progress {
+  display: flex;
+  align-items: center;
+}
+
+.preferential .detail .footer .percent .progress .progress-bar{
+  width: 80px;
+  height: 4px;
+  border: 0.5px solid #FF4994 ;
+  margin-left: 10px;
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.preferential .detail .footer .percent .progress .progress-bar .color{
+  background: #FF7494;
+  height: 100%;
+}

@@ -1,0 +1,86 @@
+.sheet {
+
+}
+
+.sheet .page {
+  display: flex;
+  font-size: 14px;
+  align-items: center;
+  height: 47px;
+  border: 1px solid #EEEEEE;
+}
+
+.sheet .page div {
+  margin-left: 22px;
+}
+
+.sheet .page .select {
+  color: #FF7494;
+}
+
+.sheet .content {
+  display: flex;
+}
+
+.sheet .content .side {
+  width: 80px;
+  background: #EEEEEE;
+  font-size: 12px;
+}
+
+.sheet .content .side p {
+  height: 50px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sheet .content .side .select {
+  background: #FFFFFF;
+  color: #FF7494;
+}
+
+.sheet .container {
+  width: 100%;
+  text-align: left;
+  padding-left: 24px;
+  height: 250px;
+  overflow: auto;
+}
+
+.sheet .container .subscribe {
+  border-bottom: 1px #EEEEEE solid;
+  height: 49px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sheet .container .subscribe .time {
+  margin: 0 0 0 3px;
+  font-size: 12px;
+}
+
+.sheet .container .subscribe .state {
+  font-size: 10px;
+  margin: 0 0 0 10px;
+}
+
+.sheet .container .subscribe svg {
+  margin: 0 15px 0 0;
+}
+
+.sheet .container .subscribe .select{
+  color: #FF7494;
+}
+
+.sheet .confirm {
+  height: 48px;
+  font-size: 14px;
+  color: #FFFFFF;
+  background: #FF7494;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}

@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.one-hour-arrive {
+  border: 1px solid #FF7494;
+  background-color: #FF7494;
+  line-height: 14px;
+  font-size: 8px;
+  text-align: center;
+  height: 15px;
+  border-radius: 2px;
+  color: #FFFFFF;
+  padding:2px;
+}
+
+.next-day {
+  border: 1px solid #FF7494;
+  line-height: 14px;
+  font-size: 8px;
+  text-align: center;
+  height: 15px;
+  border-radius: 2px;
+  color: #FF7494;
+  padding:2px;
+}
+
+.self-lifting{
+  border: 1px solid #FFC833;
+  line-height: 14px;
+  font-size: 8px;
+  text-align: center;
+  height: 15px;
+  border-radius: 2px;
+  color: #FFC833;
+  padding:2px;
+}
+
+a {
+  text-decoration: none;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

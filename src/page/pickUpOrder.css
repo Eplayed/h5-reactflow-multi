@@ -1,0 +1,60 @@
+.pick-up .title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: #EEEEEE 1px solid;
+  height: 47px;
+}
+
+.pick-up .day-and-time {
+  display: flex;
+}
+
+.pick-up .day-and-time .day {
+  width: 80px;
+  background: #EEEEEE;
+}
+
+.pick-up .day-and-time .day p{
+  height: 50px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+
+.pick-up .day-and-time .day .select {
+  background: #FFFFFF;
+  color: #FF7494;
+}
+
+.pick-up .day-and-time .time {
+  margin: 0 15px 0 24px;
+  width: 100%;
+  text-align: left;
+
+  height: 250px;
+  overflow: auto;
+}
+
+.pick-up .day-and-time .time p {
+  border-bottom: 1px #EEEEEE solid;
+  height: 39px;
+  font-size: 12px;
+  margin: 0;
+  padding: 0 0 0 3px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pick-up .confirm {
+  height: 48px;
+  color: #FFFFFF;
+  background: #FF7494;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

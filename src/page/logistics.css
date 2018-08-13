@@ -1,0 +1,107 @@
+.logistics {
+
+}
+
+.logistics .card {
+  margin: 20px 15px 0 15px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.07);
+  display: flex;
+}
+
+.logistics .card .img {
+  width: 80px;
+  height: 80px;
+  margin: 15px 17px 15px 10px;
+  position: relative;
+}
+
+.logistics .card .img img {
+  width: 100%;
+  height: 100%;
+}
+
+.logistics .card .img .total {
+  position: absolute;
+  width: 80px;
+  height: 18px;
+  background: rgba(50, 50, 50, 0.5);
+  bottom: 0;
+  color: #FFFFFF;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logistics .card .content {
+  margin: 18px 18px 18px 3px;
+  height: 80px;
+}
+
+.logistics .card .content .state {
+  font-size: 14px;
+  color: #333333;
+  text-align: left;
+}
+
+.logistics .card .content .state .type {
+  color: #FF7494;
+}
+
+.logistics .card .content .info {
+  margin-top: 12px;
+  font-size: 14px;
+  color: #333333;
+  text-align: left;
+}
+
+.logistics .card .time-axis {
+  padding: 20px 0 20px 55px;
+  text-align: left;
+}
+
+.logistics .card .time-axis .msg {
+  font-size: 14px;
+  padding-left: 18px;
+  color: #333333;
+  height: 20px;
+  position: relative;
+}
+
+.logistics .card .time-axis .msg .point {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background: #D8D8D8;
+  position: absolute;
+  left: -6px;
+  top: 12px;
+}
+
+.logistics .card .time-axis .msg .select-point {
+  width: 16px;
+  height: 16px;
+  border-radius: 10px;
+  background: #FF7494;
+  position: absolute;
+  border: 2px solid rgba(253, 191, 205, 1);
+  left: -9px;
+  top: 10px;
+}
+
+.logistics .card .time-axis .msg .time {
+  font-size: 12px;
+  color: #999999;
+  line-height: 17px;
+}
+
+.logistics .card .time-axis .placeholder {
+  height: 32px;
+}
+
+.logistics .card .time-axis .connection {
+  border-left: 1px solid #EEEEEE;
+}
+
+
+

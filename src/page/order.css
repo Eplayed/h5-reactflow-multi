@@ -1,0 +1,321 @@
+.order {
+  background: #F5F5F5;
+}
+
+.order .nav {
+  margin: 0;
+}
+
+.order .nav .content {
+  height: 120px;
+  width: 100%;
+  background: linear-gradient(to right, #FF7474, #FFDB7A);
+  position: relative;
+}
+
+.order .nav .content .type {
+  position: absolute;
+  top: 26px;
+  left: 15px;
+  color: #FFFFFF;
+  font-size: 18px;
+  display: inline-flex;
+}
+
+.order .nav .content .type .typeName {
+  padding-left: 10px;
+}
+
+.order .nav .content .count-down-time {
+  position: absolute;
+  right: 20px;
+  top: 26px;
+  text-align: left;
+}
+
+.order .nav .content .schedule {
+  color: #FFFFFF;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 260px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.order .nav .content .schedule .dashed {
+  width: 70px;
+  margin-top: 10px;
+  border-top: 2px dashed #FFFFFF;
+}
+
+.order .nav .content .schedule .remark {
+  font-size: 10px;
+}
+
+.order .nav .content .count-down-time p {
+  margin: 0 0 10px 0;
+  padding: 0;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+
+.order .user {
+  height: 44px;
+  background: #FFFFFF;
+  padding: 18px 0 18px 18px;
+  display: flex;
+  align-items: center;
+}
+
+.order .user .icon {
+  margin-right: 4px;
+}
+
+.order .user .detail {
+  color: #333333;
+}
+
+.order .user .detail .contact {
+  text-align: left;
+  font-size: 16px;
+}
+
+.order .user .detail .contact .phone {
+  margin-left: 17px;
+  font-size: 14px;
+}
+
+.order .user .detail .address {
+  color: #999999;
+  font-size: 14px;
+  text-align: left;
+}
+
+.order .commodity {
+  background: #FFFFFF;
+  margin-top: 10px;
+}
+
+.order .commodity .head {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  border-bottom: 1px solid #EEEEEE;
+}
+
+.order .commodity .head .title {
+  color: #333333;
+  font-size: 14px;
+  margin: 10px 10px 10px 15px;
+}
+
+.order .commodity .card {
+  border-bottom: 1px solid #EEEEEE;
+  margin-left: 10px;
+  display: flex;
+  padding: 20px 20px 6px 0;
+}
+
+.order .commodity .card {
+  border-bottom: 1px solid #EEEEEE;
+  margin-left: 10px;
+  display: flex;
+  padding: 20px 20px 6px 0;
+}
+
+.order .commodity .card:last-child {
+  border-bottom: 0
+}
+
+.order .commodity .card .sidebar img {
+  width: 64px;
+  height: 64px;
+}
+
+.order .commodity .card .content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-left:8px; 
+  height: auto;
+}
+
+.order .commodity .card .content .text .name {
+  text-align: left;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333333;
+  margin-bottom: 3px;
+}
+
+.order .commodity .card .content .text .specifications {
+  text-align: left;
+  font-size: 12px;
+  line-height: 17px;
+  color: #999999;
+  margin-bottom: 3px;
+}
+
+.order .commodity .card .content .text .unit {
+  text-align: left;
+  font-size: 12px;
+  line-height: 17px;
+  color: #999999;
+  margin-bottom: 3px;
+}
+
+.order .commodity .card .content .text .unit span {
+  margin-right: 10px;
+}
+
+.order .commodity .card .content .price {
+  margin: 0 0 0 26px;
+  color: #333333;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.order .commodity .card .content .price .total {
+  height: 20px;
+  padding: 0;
+}
+
+.order .commodity .card .content .price .refund {
+  font-size: 12px;
+  width: 70px;
+  height: 24px;
+  border-radius: 12px;
+  border: 0.5px solid #999999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #333333;
+}
+
+.order .detail {
+  margin-top: 10px;
+  background: #FFFFFF;
+}
+
+.order .detail .content {
+  height: auto;
+  border-bottom: 1px solid #EEEEEE;
+  padding: 10px 0 10px 15px;
+  text-align: left;
+  font-size: 12px;
+}
+
+.order .detail .content p {
+  margin: 0 48px 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.order .detail .content p:last-child {
+  margin: 0 0 0 0;
+}
+
+.order .detail .content .label {
+  color: #999999;
+  font-size: 12px;
+  margin-right: 2px;
+}
+
+.order .detail .remark {
+  height: auto;
+  padding: 10px 0 10px 15px;
+  font-size: 12px;
+  margin-right: 2px;
+  display: flex;
+}
+
+.order .detail .remark .label {
+  text-align: left;
+  color: #999999;
+  white-space: nowrap;
+  margin: 0;
+}
+
+.order .detail .remark .content {
+  text-align: left;
+  margin: 0;
+  padding: 0 48px 0 0;
+  border: 0;
+}
+
+.order .price {
+  margin: 10px 0 0 0;
+  background: #FFFFFF;
+}
+
+.order .price .content {
+  padding: 10px 15px 0 15px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;;
+}
+
+.order .price .last-child {
+  padding: 10px 15px 10px 15px;
+  border-bottom: 1px solid #EEEEEE;
+}
+
+.order .price .total {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 15px 10px 0;
+  font-size: 14px;
+}
+
+.order .price .total .total-amount {
+  color: #FF7494;
+  font-weight: bold;
+}
+
+.order .action {
+  margin-top: 10px;
+  background: #FFFFFF;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 15px 10px 0;
+}
+
+.order .action .contact {
+  margin-left: 10px;
+  padding: 6px 14px 6px 14px;
+  font-size: 12px;
+  border: 0.5px solid rgba(153, 153, 153, 1);
+  border-radius: 2px;
+  color: #333333;
+}
+
+.order .action .info {
+  margin-left: 10px;
+  padding: 6px 14px 6px 14px;
+  font-size: 12px;
+  border: 0.5px solid rgba(153, 153, 153, 1);
+  border-radius: 2px;
+  color: #333333;
+}
+
+.order .action .primary {
+  margin-left: 10px;
+  padding: 6px 14px 6px 14px;
+  font-size: 12px;
+  border: 0.5px solid #FF7494;
+  color: #FFFFFF;
+  background: #FF7494;
+  border-radius: 2px;
+}
+
+
+
+

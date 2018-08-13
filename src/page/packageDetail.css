@@ -1,0 +1,70 @@
+.packageDetail .content {
+  height: auto;
+}
+
+.packageDetail .content .head{
+  height: 41px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px #EEEEEE solid;
+}
+
+.packageDetail .content .head .name {
+  margin: 0 11px 0 15px;
+}
+
+.packageDetail .content .commodity {
+  padding: 13px 0 23px 15px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%；
+}
+
+.packageDetail .content .commodity .image {
+  display: flex;
+  width: calc(100% - 78px);
+  overflow-x: auto;
+}
+
+.packageDetail .content .commodity .image img{
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+  display: block;
+}
+
+.packageDetail .content .commodity .total {
+  position: absolute;
+  right: 0;
+  top: 13px;
+  width: 54px;
+  padding-right: 13px;
+  height: 60px;
+  background: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.packageDetail .content .commodity .total span{
+  font-size: 12px;
+  color: #333333;
+}
+
+.packageDetail .detail {
+  border-top: 1px solid #EEEEEE;
+  color: #333333;
+}
+
+.packageDetail .detail .label {
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px 0 15px;
+  margin: 14px 0 0 0;
+}
+
+.packageDetail .detail .label .total-price {
+  color: #FF7494;
+}
